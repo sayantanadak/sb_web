@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.alert-title {
+  font-family: PoppinsRegular, Arial, serif;
+  font-weight: Regular;
+}
+
+@font-face {
+  font-family: 'PoppinsRegular';
+  src: local('Poppins'), url(./fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsBold';
+  font-weight: 900;
+  src: local('Poppins'), url(./fonts/Poppins-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsBlack';
+  font-weight: 900;
+  src: local('Poppins'), url(./fonts/Poppins-Black.ttf) format('truetype');
+}
